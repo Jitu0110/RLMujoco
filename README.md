@@ -104,7 +104,7 @@ This section provides detailed instructions on how to train the reinforcement le
     ```
   - Replace `[EnvironmentName]` with the name of the MuJoCo environment you wish to use, and `[AlgorithmName]` with the RL algorithm you're implementing.
   - Replace `[PathToModel]` with the path to the NeuralNetwork Model created in the training step.
-  - Example :  `python3 main.py Humanoid-v4 SAC -t /Users/xyz/models_Humanoid/SAC_1100000.zip`
+  - Example :  `python3 main.py Humanoid-v4 SAC -s /Users/xyz/models_Humanoid/SAC_1100000.zip`
   - NOTE : The Model and Log directory can be updated by changing the model_dir and log_dir variables in main.py before training.
 
 
