@@ -15,9 +15,9 @@ This project focuses on applying reinforcement learning (RL) techniques to train
 
 1) Train agents in diverse and complex environments using MuJoCo.
 2) Utilize the Gymnasium interface for rendering the training environments.
-3) Explore the capabilities of advanced RL algorithms such as Proximal Policy Optimization (PPO), Soft Actor Critic (SAC) , Advantage Actor Critic (A2C), Deep Q Network (DQN) etc 
+3) Explore the capabilities of advanced RL algorithms such as Proximal Policy Optimization (PPO), Soft Actor Critic (SAC) , Advantage Actor Critic (A2C), Deep Q Network (DQN) etc.
 4) Exploit hyper-parameters such as learning rate and discount factor through tuning to obtain optimized model.
-5) Manipulate reward calculation in sub env
+5) Manipulate reward calculation in sub env.
 
 
 ## Getting Started
@@ -106,9 +106,11 @@ Below is a table outlining different algorithms and the corresponding command to
 
 
 
-## Demo Video
+## Results
+https://github.com/Jitu0110/RLMujoco/assets/53211153/c0038a17-e229-4ca5-a0f7-c4d64ae169c7
 
-  <img src="Gallery/humanoid.mp4" width="200" height="200" />
+https://github.com/Jitu0110/RLMujoco/assets/53211153/91754329-89a9-4b58-9a5d-fe13d2b6fd3e
+
 
 
 
