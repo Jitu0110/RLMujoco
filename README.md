@@ -1,5 +1,12 @@
 # RLMujoco
 
+<p align="center">
+  <img src="Gallery/Ant.png" width="200" height="200" />
+  <img src="Gallery/HalfCheetah.png" width="200" height="200" />
+  <img src="Gallery/HumanoidStandup.png" width="200" height="200" />
+  <img src="Gallery/Humanoid.png" width="200" height="200" />
+</p>
+
 ## Project Overview
 This project focuses on applying reinforcement learning (RL) techniques to train agents within various MuJoCo sub-environments (Ant-v4, Humanoid-v4, HumanoidStandup-v4, HalfCheetah-v4) as part of the coursework for RL for AI. MuJoCo, a physics engine, provides a realistic simulation for agent interaction and learning.
 
@@ -101,9 +108,7 @@ Below is a table outlining different algorithms and the corresponding command to
 
 ## Demo Video
 
-## Demo Video
-
-[![Watch the video](https://via.placeholder.com/560x315.png?text=Click+To+Watch)](https://drive.google.com/file/d/13IScSHbCSIlPqQxrzWGuy_8qp5EOdkAO/view?pli=1)
+  <img src="Gallery/humanoid.mp4" width="200" height="200" />
 
 
 
