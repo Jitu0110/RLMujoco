@@ -1,10 +1,10 @@
 # RLMujoco
 
 <p align="center">
-  <img src="Gallery/Ant.png" width="200" height="200" />
-  <img src="Gallery/HalfCheetah.png" width="200" height="200" />
-  <img src="Gallery/HumanoidStandup.png" width="200" height="200" />
-  <img src="Gallery/Humanoid.png" width="200" height="200" />
+ <img src="Gallery/Ant.png" width="200" height="200" title="Ant-v4" />
+  <img src="Gallery/HalfCheetah.png" width="200" height="200" title="HalfCheetah-v4" />
+  <img src="Gallery/HumanoidStandup.png" width="200" height="200" title="HumanoidStandup-v4"/>
+  <img src="Gallery/Humanoid.png" width="200" height="200" title="Humanoid-v4"/>
 </p>
 
 ## Project Overview
