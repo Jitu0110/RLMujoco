@@ -63,16 +63,17 @@ This section provides detailed instructions on how to train the reinforcement le
  
 - **Algorithm Execution Guide**
 
-Below is a table outlining different algorithms and the corresponding command to run each one. This will help you quickly start experiments with various reinforcement learning methods.
+  Below is a table outlining different algorithms and the corresponding command to run each one. This will help you quickly start 
+  experiments with various reinforcement learning methods.
 
-| Algorithm | Command                         |
-|-----------|-----------------------------------------------|
-| SAC       | `python main.py Humanoid-v4 SAC -t`          |
-| A2C       | `python main.py Humanoid-v4 A2C -t`          |
-| DQN       | `python main.py Humanoid-v4 DQN -t`          |
-| PPO       | `python main.py Humanoid-v4 PPO -t`          |
+  | Algorithm | Command                         |
+  |-----------|-----------------------------------------------|
+  | SAC       | `python main.py Humanoid-v4 SAC -t`          |
+  | A2C       | `python main.py Humanoid-v4 A2C -t`          |
+  | DQN       | `python main.py Humanoid-v4 DQN -t`          |
+  | PPO       | `python main.py Humanoid-v4 PPO -t`          |
 
-- Replace `Humanoid-v4` with the environment you wish to use if different.
+  - Replace `Humanoid-v4` with the environment you wish to use if different.
 
 
 - **Monitor Training:**
@@ -90,9 +91,11 @@ Below is a table outlining different algorithms and the corresponding command to
     
         model = SAC('MlpPolicy', env, verbose=1, device='cpu', tensorboard_log=log_dir,learning_rate=0.01)
 
-  - To modify the Reward calculation, check the supporting files attached.
-    
-  - Provide a table or list explaining what each parameter does and the range of acceptable values.
+- **Modifying Rewards:**
+  - Check where the mujoco package files have beein installed on your device. For me, it is at this location : /opt/homebrew/lib/python3.11/site-packages/gymnasium/envs/mujoco
+  -  Modify the code of the required env file from here.
+  -  NOTE: I have modified the Humanoid-v4.py to make the agent move faster in the forward direction by manipulating the reward calculation. The file is available in the 'Code' directory.
+
 
 ### 3) Testing
   - To begin testing an agent using the model created, use the following command:
@@ -107,8 +110,19 @@ Below is a table outlining different algorithms and the corresponding command to
 
 
 ## Results
+
+### Humanoid-v4
+ - Algorithm : SAC
+ - Timesteps : 11000000
+ - Rewards modified
+   
 https://github.com/Jitu0110/RLMujoco/assets/53211153/c0038a17-e229-4ca5-a0f7-c4d64ae169c7
 
+
+### HalfCheetah-v4
+ - Algorithm : PPO
+ - Timesteps : 725000
+   
 https://github.com/Jitu0110/RLMujoco/assets/53211153/91754329-89a9-4b58-9a5d-fe13d2b6fd3e
 
 
