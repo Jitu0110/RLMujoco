@@ -7,8 +7,20 @@
   <img src="Gallery/Humanoid.png" width="200" height="200" title="Humanoid-v4"/>
 </p>
 
+
 ## Project Overview
-This project focuses on applying reinforcement learning (RL) techniques to train agents within various MuJoCo sub-environments (Ant-v4, Humanoid-v4, HumanoidStandup-v4, HalfCheetah-v4) as part of the coursework for RL for AI. MuJoCo, a physics engine, provides a realistic simulation for agent interaction and learning.
+This project applies deep reinforcement learning to train agents in various environments using MuJoCo and Gymnasium.
+
+
+Environments used:
+
+ - `Ant-v4 `
+ 
+ - `HalfCheetah-v4 `
+ 
+ - `HumanoidStandup-v4 `
+ 
+ - `Humanoid-v4 `
 
 
 ## Objectives of the Project:
@@ -59,7 +71,7 @@ This section provides detailed instructions on how to train the reinforcement le
     python main.py [EnvironmentName] [AlgorithmName] -t
     ```
   - Replace `[EnvironmentName]` with the name of the MuJoCo environment you wish to use, and `[AlgorithmName]` with the RL algorithm you're implementing.
-  - Example :  `python3 main.py Humanoid-v4 SAC -t`
+  - Example :  `python main.py Humanoid-v4 SAC -t`
  
 - **Algorithm Execution Guide**
 
@@ -104,7 +116,7 @@ This section provides detailed instructions on how to train the reinforcement le
     ```
   - Replace `[EnvironmentName]` with the name of the MuJoCo environment you wish to use, and `[AlgorithmName]` with the RL algorithm you're implementing.
   - Replace `[PathToModel]` with the path to the NeuralNetwork Model created in the training step.
-  - Example :  `python3 main.py Humanoid-v4 SAC -s /Users/xyz/models_Humanoid/SAC_1100000.zip`
+  - Example :  `python main.py Humanoid-v4 SAC -s /Users/xyz/models_Humanoid/SAC_1100000.zip`
   - NOTE : The Model and Log directory can be updated by changing the model_dir and log_dir variables in main.py before training.
 
 
