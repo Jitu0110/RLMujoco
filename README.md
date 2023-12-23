@@ -86,7 +86,7 @@ This section provides detailed instructions on how to train the reinforcement le
 
 ### 2) Adjusting Parameters
 - **Modifying Hyperparameters:**
-  - You can modify the learning rate, discount factor etc by updating the the train function in main.py. Check default values before updating.
+  - You can modify the learning rate, discount factor etc by updating the train function in main.py. Check default values before updating.
     Example :
     
         model = SAC('MlpPolicy', env, verbose=1, device='cpu', tensorboard_log=log_dir,learning_rate=0.01)
