@@ -115,15 +115,35 @@ This section provides detailed instructions on how to train the reinforcement le
  - Algorithm : SAC
  - Timesteps : 11000000
  - Rewards modified
+ - Final Training Stage
    
 https://github.com/Jitu0110/RLMujoco/assets/53211153/c0038a17-e229-4ca5-a0f7-c4d64ae169c7
 
 
 ### HalfCheetah-v4
+
+ - Algorithm : PPO
+ - Timesteps : 200000
+ - Mid Training Stage
+
+https://github.com/Jitu0110/RLMujoco/assets/53211153/f9ca988e-edce-4e82-b4ed-e15b09af361b
+
+
  - Algorithm : PPO
  - Timesteps : 725000
+ - Final Training Stage
    
 https://github.com/Jitu0110/RLMujoco/assets/53211153/91754329-89a9-4b58-9a5d-fe13d2b6fd3e
+
+
+
+### Ant-v4
+
+ - Algorithm : PPO
+ - Timesteps : 550000
+ - Final Training Stage
+
+https://github.com/Jitu0110/RLMujoco/assets/53211153/0e75be17-4b24-4741-bb5a-2a264e74fd67
 
 
 
