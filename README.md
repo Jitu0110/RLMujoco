@@ -113,7 +113,7 @@ This section provides detailed instructions on how to train the reinforcement le
 
 ### Humanoid-v4
  - Algorithm : SAC
- - Timesteps : 11000000
+ - Timesteps : 1100000
  - Rewards modified : `healthy_reward=15.0, forward_reward*=2.5 , ctrl_cost*=0.5`
  - Final Training Stage
    
