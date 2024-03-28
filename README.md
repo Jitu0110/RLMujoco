@@ -158,6 +158,8 @@ https://github.com/Jitu0110/RLMujoco/assets/53211153/91754329-89a9-4b58-9a5d-fe1
 https://github.com/Jitu0110/RLMujoco/assets/53211153/0e75be17-4b24-4741-bb5a-2a264e74fd67
 
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FJitu0110%2FRLMujoco&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 
 
